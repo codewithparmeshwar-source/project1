@@ -51,8 +51,3 @@ Here are a few things I’m working on or planning to build:
 ---
 
 ⭐ **Thanks for visiting my profile!**
-
-
-Hi there 👋 I'm Parmeshwar  
-💻 Web Developer | Java Enthusiast | Backend Explorer  
-
