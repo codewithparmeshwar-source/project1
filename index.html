@@ -5,26 +5,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Parmeshwar Surwase</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
-    <h1>Parmeshwar Coding</h1>
-    <div>
-        <a href="./Calculator/index.html">Calculator</a>
-    </div>
-    <br>
-    <div>
-        <a href="./Crecket-game/index.html">Crecket-game</a>
-    </div>
+<body data-theme="light">
 
-    <script>
-        let name = prompt("Enter your name:");
-        if (name) {
-            alert("Hello " + name + ", welcome to our Parmeshwar's Coding Platform.");
-        }else{
-            alert("Welcome!")
-        }
-    </script>
+    <header>
+        <h1>Parmeshwar's Web App</h1>
+
+        <select id="themeToggle">
+            <option value="light">Light</option>
+            <option value="dark">Dark</option>
+            <option value="eye">Eye Comfort</option>
+            <option value="color">Coloured</option>
+        </select>
+    </header>
+
+    <main>
+        <div class="card">
+            <h2><a href="./Calculator/index.html">Calculator</a></h2>
+            <p>Calculate here, Whatever you want.</p>
+        </div>
+
+        <div class="card">
+            <h2><a href="./Crecket-game/index.html">Crecket-game</a></h2>
+            <p>Sorry, this is developing mode.</p>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
 </body>
 
 </html>

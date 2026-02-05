@@ -68,47 +68,9 @@ main {
 }
 
 .card {
-    /* width: 320px;
-    padding: 20px;
-
-    border-radius: 12px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.2);
-
-    text-align: center; */
-    /* height: 100vh; */
-
-    display: flex;
-    align-items: center;      /* vertical center */
-    justify-content: center;  /* horizontal center */
-}
-
-
-#Calculator{
-    border: 1px solid rgb(187, 183, 183);
-    border-radius: 5px;
-    height: 400px;
-    width: 220px;
-    padding: 20px;
-
-    border-radius: 12px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.2);
-
-    text-align: center;
-    
-}
-#display{
+    background: var(--card);
+    padding: 16px;
     margin: 10px;
-    width: 85%;
-}
-
-.button-container{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-.button {
-    width: 45px;
-    height: 45px;
-    margin: 3px 
+    border-radius: 8px;
+    border: 1px solid var(--border);
 }
